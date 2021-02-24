@@ -58,9 +58,7 @@
 }
 
 .black_box {
-  position: relative;
-  top: 15px;
-  left: 15px;
+  margin: 15px;
 }
 
 .black_box2 {
