@@ -1,0 +1,148 @@
+.absolute-pare1 {
+  position: relative;
+  background: red;
+  width: 150px;
+  height: 150px;
+}
+.absolute-Chil1 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  background: orange;
+  width: 100px;
+  height: 100px;
+}
+
+.absolute-pare2 {
+  margin: 10px 0;
+  position: relative;
+  background: blue;
+  width: 120px;
+  height: 120px;
+}
+.absolute-Chil2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  background: pink;
+}
+
+.bg_green {
+  margin: 20px 0;
+  background: green;
+  width: 800px;
+  position: relative;
+}
+
+.bg_green.contents1 {
+  height: 275px;
+}
+
+.bg_green.contents2 {
+  text-align: center;
+}
+
+.red_box {
+  background: red;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  bottom: 15px;
+  width: 180px;
+}
+
+.black_box {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.black_box2 {
+  padding: 15px;
+}
+
+.bottom_box {
+  background: brown;
+  position: absolute;
+  top: 180px;
+  left: 15px;
+  bottom: 15px;
+  right: 15px;
+}
+
+.orange_box {
+  background: orange;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  left: 210px;
+}
+
+
+.lesson1 {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.lesson1 .title {
+  margin-top: 100px;
+  border-bottom: solid 1px silver;
+}
+.lesson1 .contents {
+  position: absolute;
+}
+.lesson1 .contents.php {
+  left: 300px;
+}
+.lesson1 .contents.ruby {
+  left: 600px;
+}
+.lesson1 .contents.swift {
+  left: 900px;
+}
+
+.lesson2 {
+  width: 1200px;
+  margin: auto;
+  margin-top: 400px;
+}
+.lesson2 .title {
+  margin-top: 100px;
+  border-bottom: solid 1px silver;
+}
+.lesson2 .contents {
+  position: relative;
+  display: inline-block;
+}
+.lesson2 .contents.php {
+  left: 50px;
+}
+.lesson2 .contents.ruby {
+  left: 100px;
+}
+.lesson2 .contents.swift {
+  left: 150px;
+}
+
+.bear-desc {
+  width: 350px;
+  height: 400px;
+  position: relative;
+}
+.bear {
+  border: solid 1px silver;
+}
+.desc {
+  position: absolute;
+  background: cornflowerblue;
+  color: white;
+  right: 10px;
+  bottom: 10px;
+}
