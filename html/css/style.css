@@ -118,23 +118,13 @@
   border-bottom: solid 1px silver;
 }
 .lesson2 .contents {
-  position: relative;
   display: inline-block;
-}
-.lesson2 .contents.php {
-  left: 50px;
-}
-.lesson2 .contents.ruby {
-  left: 100px;
-}
-.lesson2 .contents.swift {
-  left: 150px;
+  margin-right: 55px;
 }
 
 .bear-desc {
-  width: 350px;
-  height: 400px;
   position: relative;
+  display: inline-block;
 }
 .bear {
   border: solid 1px silver;
